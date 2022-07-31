@@ -19,8 +19,8 @@ def multiply_elements(list: list, coords: list):
 
 n = int(input('Введите числа: ') )
 
-# numbers = get_numbers(n)
-f = lambda numbers: list(range(-n , n + 1)) # заменил этой строкой функцию создания списка от -n до n
+
+f = lambda numbers: list(range(-n , n + 1)) # заменила этой строкой функцию создания списка от -n до n
 coords = enter_coords()
 print(f(n))
 print(multiply_elements(f(n), coords))
